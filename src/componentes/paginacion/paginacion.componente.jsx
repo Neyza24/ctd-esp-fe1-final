@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+import { useAppDispatch, useAppSelector } from '../../redux/hooks';
 import './paginacion.css';
 
 /**
@@ -10,9 +12,15 @@ import './paginacion.css';
  */
 const Paginacion = () => {
 
+    
+
+
+    
+    
+
     return <div className="paginacion">
-        <button disabled={true} className={"primary"}>Anterior</button>
-        <button disabled={false} className={"primary"}>Siguiente</button>
+        <button disabled={true} className={"primary"} >anterior</button>
+        <button disabled={false} className={"primary"} >siguiente</button>
     </div>
 }
 

@@ -14,6 +14,10 @@ import TarjetaEpisodio from "../componentes/episodios/tarjeta-episodio.component
  * 
  * @returns la pagina de detalle
  */
+
+
+
+
 const PaginaDetalle = () => {
     return <div className="container">
         <h3>Rick Sanchez</h3>
