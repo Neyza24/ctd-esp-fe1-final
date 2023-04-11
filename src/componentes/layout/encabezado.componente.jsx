@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './encabezado.css';
 
 /**
@@ -10,7 +10,8 @@ import './encabezado.css';
  */
 const Encabezado = () => {
 
-    return <header>
+    return (
+        <header>
             <div>
                 <div>
                     <h2>Examen Final de Frontend IV</h2>
@@ -23,7 +24,7 @@ const Encabezado = () => {
                     </ul>
                 </nav>
             </div>
-    </header>
+        </header>)
 }
 
 export default Encabezado
